@@ -29,6 +29,29 @@ nav li {
 nav li a:hover { 
     color: #590242;
   }
+/* .hamburger{
+    position: relative;
+    display: block;
+    width: 35px;
+    cursor: pointer;
+
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+.hamburger .bar, .hamburger:after,.hamburger:before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0px;
+    transition: 0.4s;
+
+} */
 
 a {
     text-decoration: none;
@@ -131,6 +154,7 @@ audio::-webkit-media-controls-enclosure{
     display: inline-block;
     position: relative;
     left: 50px;
+    top: 550px;
 }
 .trends:hover{
     background-color: #020659;
@@ -163,6 +187,39 @@ h3{
     color: #590242;
     text-transform: uppercase;
 }
+
+.playlists-container,.sidecurated{
+    display: flex-box;
+    width: 417px;
+    height: 500px;
+    
+    /* grid-template-columns: 417px;
+    grid-template-rows: 110px;
+    height: 500px; */
+}
+.sidecurated{
+    position: relative;
+    bottom:569px;
+    left: 417px;
+    height: 480px;
+  
+
+}
+.playlists-container{
+    margin-top: -15px;
+}
+/* .sidecurated{
+    display: grid;
+    grid-template-columns: 417px;
+    grid-template-rows: 90px;
+    position: relative;
+    bottom:545px;
+    left: 417px;
+    height: 480px;
+} */
+
+
+
 #trending ::-webkit-scrollbar-track{
     box-shadow: inset 0 0 15px #590242;
 }
